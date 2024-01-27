@@ -1,0 +1,64 @@
+**Bem-vindo ao Portfólio de Desenvolvimento de Software de Daniel Mendes**
+
+---
+
+### Quem Sou Eu
+
+Olá, eu sou Daniel Mendes, um entusiasta apaixonado por transformar ideias inovadoras em soluções práticas. Com uma sólida formação acadêmica em Ciência da Computação e anos de experiência no desenvolvimento de software, estou sempre pronto para enfrentar novos desafios.
+
+---
+
+### Habilidades e Experiência
+
+**Linguagens de Programação:**
+Dominando linguagens como Python, JavaScript, e Java, meu objetivo é criar códigos limpos, eficientes e de fácil manutenção.
+
+**Desenvolvimento Web:**
+Experiência extensa no desenvolvimento de aplicações web modernas utilizando frameworks como React e Node.js.
+
+**Bancos de Dados:**
+Mestre em SQL e NoSQL, garantindo que os dados estejam organizados e acessíveis de maneira eficiente.
+
+**Desenvolvimento Móvel:**
+Criando aplicativos nativos para Android e iOS, proporcionando experiências de usuário excepcionais.
+
+---
+
+### Projetos Destacados
+
+#### Sistema de Gerenciamento Escolar
+Desenvolvi um sistema abrangente de gerenciamento escolar que integra funcionalidades desde o registro de alunos até o rastreamento de desempenho acadêmico em tempo real. Isso resultou em uma otimização significativa dos processos administrativos.
+
+#### Plataforma de E-Commerce
+Liderei uma equipe na criação de uma plataforma de comércio eletrônico escalável, garantindo uma experiência de compra suave e segura para os usuários. A implementação de tecnologias como React e Redux trouxe uma interface intuitiva e interativa.
+
+#### Aplicativo de Saúde
+Participei do desenvolvimento de um aplicativo inovador de monitoramento de saúde, permitindo que os usuários rastreiem seus dados vitais e recebam alertas personalizados. Esse projeto teve um impacto positivo na promoção de hábitos saudáveis.
+
+---
+
+### Compromisso com a Qualidade
+
+Meu compromisso é entregar produtos de alta qualidade, alinhados com as expectativas do cliente. Utilizo práticas de desenvolvimento ágil, garantindo entregas regulares e adaptação contínua às necessidades do projeto.
+
+---
+
+### Educação e Certificações
+
+**Bacharel em Ciência da Computação**
+Universidade TechMaster - Ano de Conclusão: 20XX
+
+**Certificado em Desenvolvimento Web Full Stack**
+Instituto de Tecnologia Avançada - Ano de Conclusão: 20XX
+
+---
+
+### Entre em Contato
+
+Estou sempre aberto a novas oportunidades, colaborações ou simplesmente para discutir ideias interessantes. Sinta-se à vontade para entrar em contato através do meu e-mail (daniel.mendes@email.com) ou pelas redes sociais.
+
+**Vamos transformar suas ideias em realidade!**
+
+---
+
+Este é o meu universo de desenvolvimento. Estou ansioso para embarcar em novas jornadas e criar soluções impactantes. Obrigado por explorar meu portfólio!
