@@ -1,0 +1,76 @@
+				Inglês/UA
+
+The table below shows built-in exceptions that are usually raised in Python:
+
+Exception	Description
+ArithmeticError	Raised when an error occurs in numeric calculations
+AssertionError	Raised when an assert statement fails
+AttributeError	Raised when attribute reference or assignment fails
+Exception	Base class for all exceptions
+EOFError	Raised when the input() method hits an "end of file" condition (EOF)
+FloatingPointError	Raised when a floating point calculation fails
+GeneratorExit	Raised when a generator is closed (with the close() method)
+ImportError	Raised when an imported module does not exist
+IndentationError	Raised when indentation is not correct
+IndexError	Raised when an index of a sequence does not exist
+KeyError	Raised when a key does not exist in a dictionary
+KeyboardInterrupt	Raised when the user presses Ctrl+c, Ctrl+z or Delete
+LookupError	Raised when errors raised cant be found
+MemoryError	Raised when a program runs out of memory
+NameError	Raised when a variable does not exist
+NotImplementedError	Raised when an abstract method requires an inherited class to override the method
+OSError	Raised when a system related operation causes an error
+OverflowError	Raised when the result of a numeric calculation is too large
+ReferenceError	Raised when a weak reference object does not exist
+RuntimeError	Raised when an error occurs that do not belong to any specific exceptions
+StopIteration	Raised when the next() method of an iterator has no further values
+SyntaxError	Raised when a syntax error occurs
+TabError	Raised when indentation consists of tabs or spaces
+SystemError	Raised when a system error occurs
+SystemExit	Raised when the sys.exit() function is called
+TypeError	Raised when two different types are combined
+UnboundLocalError	Raised when a local variable is referenced before assignment
+UnicodeError	Raised when a unicode problem occurs
+UnicodeEncodeError	Raised when a unicode encoding problem occurs
+UnicodeDecodeError	Raised when a unicode decoding problem occurs
+UnicodeTranslateError	Raised when a unicode translation problem occurs
+ValueError	Raised when there is a wrong value in a specified data type
+ZeroDivisionError	Raised when the second operator in a division is zero
+====================================================================================================================
+                     			PT-BR
+A tabela abaixo mostra exceções integradas que geralmente são geradas em Python:
+
+Descrição da exceção
+ArithmeticError Gerado quando ocorre um erro em cálculos numéricos
+AssertionError Gerado quando uma instrução assert falha
+AttributeError Gerado quando a referência ou atribuição de atributo falha
+Classe base de exceção para todas as exceções
+EOFError Gerado quando o método input() atinge uma condição de "fim de arquivo" (EOF)
+FloatingPointError Gerado quando um cálculo de ponto flutuante falha
+GeneratorExit Gerado quando um gerador é fechado (com o método close())
+ImportError Gerado quando um módulo importado não existe
+IndentationError Gerado quando o recuo não está correto
+IndexError Gerado quando um índice de uma sequência não existe
+KeyError Gerado quando uma chave não existe em um dicionário
+KeyboardInterrupt Gerado quando o usuário pressiona Ctrl+c, Ctrl+z ou Delete
+LookupError gerado quando os erros gerados não podem ser encontrados
+MemoryError Gerado quando um programa fica sem memória
+NameError Gerado quando uma variável não existe
+NotImplementedError Gerado quando um método abstrato requer uma classe herdada para substituir o método
+OSError Gerado quando uma operação relacionada ao sistema causa um erro
+OverflowError Gerado quando o resultado de um cálculo numérico é muito grande
+ReferenceError Gerado quando um objeto de referência fraco não existe
+RuntimeError Gerado quando ocorre um erro que não pertence a nenhuma exceção específica
+StopIteration Gerado quando o método next() de um iterador não possui mais valores
+SyntaxError Gerado quando ocorre um erro de sintaxe
+TabError gerado quando o recuo consiste em tabulações ou espaços
+SystemError Gerado quando ocorre um erro no sistema
+SystemExit Gerado quando a função sys.exit() é chamada
+TypeError Gerado quando dois tipos diferentes são combinados
+UnboundLocalError Gerado quando uma variável local é referenciada antes da atribuição
+UnicodeError Gerado quando ocorre um problema Unicode
+UnicodeEncodeError Gerado quando ocorre um problema de codificação Unicode
+UnicodeDecodeError Gerado quando ocorre um problema de decodificação Unicode
+UnicodeTranslateError Gerado quando ocorre um problema de tradução Unicode
+ValueError Gerado quando há um valor errado em um tipo de dados especificado
+ZeroDivisionError Gerado quando o segundo operador em uma divisão é zero

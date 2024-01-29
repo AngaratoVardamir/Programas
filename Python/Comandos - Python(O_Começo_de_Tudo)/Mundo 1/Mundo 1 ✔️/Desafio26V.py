@@ -1,0 +1,5 @@
+frase = str(input('Digite uma Frase Com Teclado: ')).strip().upper()
+print(' ')
+print(f'A Letra A Aparecer {frase.count("A")}x Na frase.')
+print(f'A Primeira Letra A Apareceu na Posição {frase.find("A")}')
+print(f'A Última Letra A Apareceu na Posição   {frase.rfind("A")}')

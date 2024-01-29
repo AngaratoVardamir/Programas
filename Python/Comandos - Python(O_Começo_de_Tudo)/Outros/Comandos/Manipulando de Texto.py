@@ -1,0 +1,5 @@
+frase=input('Digite Uma Frase :')
+print('{}'.format(frase[9]))
+('{}'.format(frase[9:13]))
+('{}'.format(frase[9:21]))
+('{}'.format(frase[9:21:2]))
