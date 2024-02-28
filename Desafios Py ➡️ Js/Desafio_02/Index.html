@@ -3,16 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>02</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        :root{
+            --Cor01: #731DD8;
+            --Cor02: #741dd886;
+            --Cor03: #36382E;
+            --Cor04: #DADAD9;
+            --Cor05: #dadad98f;
+            --Cor06: #5BC3EB;
+        }
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 90vh;
+            background-color: var(--Cor03);
+        }
+        #Conteudo{
+            background-color: var(--Cor01);
+            padding: 10px;
+            display: grid;
+            place-items: center;
+            border-radius: 20%;
+        }
+        #DataNacimento{
+            margin: 10px;
+            color: var(--Cor04);
+        }
+        #SimouNao h1{
+            color: var(--Cor04);
+        }
+        input{
+            color: var(--Cor03);
+            background-color: var(--Cor06);
+            padding: 5px;
+            margin: 5px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Qual é a data do seu nascimento?</h1>
-    <input type="date" name="Data">
-    <input type="button" value="Click" onclick="Clicando()">
-    <h1 id="res"></h1>
+    <div id="Conteudo">
+        <input type="date" name="Data" id="Data">
+        <input type="submit" value="Enviar" onclick="Valor()">
+        <p id="DataNacimento"></p>
+        <div id="SimouNao"></div>
+    </div>
 
+    <script>
+        function Valor(){
+            let Lista = []
+            let MesNomes = ['Janeiro','Fevereiro','Março','Abril','Maio','Junho','Julho','Agosto','Setembro','Outubro','Novembro','Dezembro']
+            var input = document.querySelector("#Data");
+            const textodata = input.value;
 
-    <script src="Script.js"></script>
+            for (obs of textodata){
+                Lista.push(obs)
+            }
+            let Ano = `${Lista[0]}${Lista[1]}${Lista[2]}${Lista[3]}`
+            let Mes = `${Lista[5]}${Lista[6]}`-1
+            let Dia = `${Lista[8]}${Lista[9]}`
+
+            DataNacimento.innerHTML = (`<strong>Você Nasceu no dia ${Dia} de ${MesNomes[Mes]} de ${Ano}. Correto?</strong>`);
+            SimouNao.innerHTML = ("<input type='button' onclick='sim()' value='Sim'> <input type='button' value='Nâo' onclick='nao()'>");
+        }
+        function sim(){
+            SimouNao.innerHTML = ("<h1>Bem Vindo!!!</h1>");
+        }
+        function nao(){
+            alert('Então Qual é?')
+            SimouNao.innerHTML = ("");
+        }
+
+    </script>
 </body>
 </html>
