@@ -4,13 +4,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>01</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        @keyframes animacao{
+            from{transform: rotate(0deg);}
+            to{transform: rotate(360deg);}
+        }
+        :root{
+            --Cor01: #731DD8;
+            --Cor02: #741dd886;
+            --Cor03: #36382E;
+            --Cor04: #DADAD9;
+            --Cor05: #dadad98f;
+        }
+        body{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 90vh;
+            background-color: var(--Cor03);
+        }
+        div{
+            display: grid;
+            place-items: center;
+            background-color: var(--Cor01);
+            padding: 20px;
+            border-radius: 10%;
+            border: 5px solid var(--Cor05);
+        }
+        div h1, div h3{
+            font-family: Arial, Helvetica, sans-serif;
+            color: var(--Cor04);
+        }
+        svg{
+            width: 40px;
+            fill: var(--Cor04);
+            transform: rotate(360deg);
+            height: 40px;
+            border-radius: 50%;
+        }
+        svg:hover{
+            animation-name: animacao;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+        }
+        svg:active{
+            background-color: rgba(255, 220, 220, 0.151);
+        }
+    </style>
 </head>
 <body>
-    <h1>Qual é o seu Nome?</h1>
-    <input type="button" value="Click" onclick="Click()">
-    <h1 id="Texto">Texto</h1>
-    
-    <script src="Script.js"></script>
+    <div>
+        <svg onclick="Volta()" id="icon"></svg>
+
+        <h1 id="Whats">Qual é o seu nome?</h1>
+        <input type="text" id="name" name="name">
+        <input type="submit" value="Enviar" onclick="Nome()">
+        <h3 id="Hello"></h3>
+    </div>
+    <script>
+        function Nome(){
+            var input = document.querySelector("#name");
+            var texto = input.value;
+            Whats.innerHTML = (``);
+            Hello.innerHTML = (`Olá ${texto}! Prazer em te Conhecer!`); 
+            icon.innerHTML = (`<svg onclick="Volta()" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+            <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M463.5 224H472c13.3 0 24-10.7 24-24V72c0-9.7-5.8-18.5-14.8-22.2s-19.3-1.7-26.2 5.2L413.4 96.6c-87.6-86.5-228.7-86.2-315.8 1c-87.5 87.5-87.5 229.3 0 316.8s229.3 87.5 316.8 0c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0c-62.5 62.5-163.8 62.5-226.3 0s-62.5-163.8 0-226.3c62.2-62.2 162.7-62.5 225.3-1L327 183c-6.9 6.9-8.9 17.2-5.2 26.2s12.5 14.8 22.2 14.8H463.5z"/>
+        </svg>`)
+        }
+        function Volta(){
+            setTimeout(() => {
+                Whats.innerHTML = (`Qual é o seu nome?`);
+                Hello.innerHTML = (``); 
+                icon.innerHTML = (`<svg onclick="Volta()" id="icon"></svg>`)
+            }, 2000);   
+        }
+    </script>
 </body>
 </html>
